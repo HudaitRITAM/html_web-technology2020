@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body style="background-color:yellow">
+	<h3><i>NAME : RITAM HUDAIT</i></h3>
+	<h3><i>ROLL : 1905797</i></h3>
+	<p><b>Currently pursuing B-Tech from KIIT</b></p>
+        <form>
+            <ul>
+                <h1>FORM</h1>
+                <li><label><b>Username : </b><input type="text" placeholder="Enter your Name" required="required"></label></li><br/>
+                <li><label><b>E-Mail : </b><input type="text" placeholder="Enter your E-mail" required="required"></label></li><br/>
+                <li><label><b>Age : </b><input type="text" placeholder="Age" required="required"></label></li><br/>
+                <li>
+                <label><b>Which option best describes your current role ? </b> </label>
+                    <select name="role">
+                        <option value="Student">Student</option>
+                        <option value="Teacher">Teacher</option>
+                        <option value="Service-man">Service-man</option>
+                    </select>
+                </li><br/>
+                <li>
+                    <label><b>How likely is that you would recommend a friend ? </b> </label><br/>
+                    <label>
+                        <input type="radio" name="a" checked="checked"/>Definitely<br/>
+                        <input type="radio" name="a"/>Maybe<br/>
+                        <input type="radio" name="a"/>Not Sure
+                    </label>
+                </li><br/>
+                <li>
+                    <label><b>What do you like most in </b></label>
+                    <select name="like">
+                    <option value="Competitive coding">Competitive coding</option>
+                    <option value="Web development">Web development</option>
+                    <option value="Machine Learning">Machine Learning</option>
+                    </select><br/>
+                </li>
+                <li>
+                    <p><b>Things that should be improved in future<br/>(check all that apply)<br/></b>
+                        <input type="checkbox" name="b" value="Front-end-Projects" checked="checked"/>Front-end-Projects<br/>
+                        <input type="checkbox" name="b" value="Back-end-Projects"/>Back-end-Projects<br/>
+                        <input type="checkbox" name="b" value="Data Visualization"/>Data Visualization
+                    </p>
+                </li>
+            </ul>
+            <input class="a" type="submit" value="Submit">
+            <input class="a" type="reset" value="Reset">
+        </form>
+    </body>
+</html>
