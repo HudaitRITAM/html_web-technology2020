@@ -1,0 +1,95 @@
+04-02-2021-----WT
+
+
+
+
+
+so we can past argument during the calling main method in every pograme exicution main method will be called from command frot from
+that place we can pass argumnet to the main method that is received in formal argument of main method in the from of array.
+example of command line argument; 
+ **write pograme to print 5 name that is pased from command line argument
+class command
+{
+ public static void main(String args[])
+ {
+  if(arg.length>0)
+   {
+    int i;
+   for(i=0;i<args.length;i++)
+   {
+  System.out.println(zrg[i]);
+   }
+  }
+  else 
+  System.out.println(no argument);
+ }
+
+**WAP to perform addition of some intiger by using the concept of command line promt.
+
+class add
+{
+ public static void main(String args[])
+ {
+  if(arg.length>0)
+ {
+   int i,s=0;
+  for(i=0;i<args.length;i++)
+  {
+  s=s+integer.parsenInt(args[i]);
+  }
+   System.out.println(+s);
+ }
+ else 
+  System.out.println(no argument);
+ }
+}
+
+Abstruct class::
+a class which declared with the stack keyword is known as abstruct class
+
+     it can have abstruct or non abstruct method
+     but viseversa is not true because absrtuct method can 
+     be declared only in the abstruct class
+
+there are two way to achive absruct class-
+1.absruct class
+2.interface
+it canhave constructor ans static method also.
+it can have final methods which will force the sub class not to change the body of the 
+method 
+Abstruct method;; a method which is declared abstruct dosen't have implementetion
+
+example;;
+abstract class Bike
+{
+  abstarct void run();
+}
+class Honda extends Bike
+{
+ void run()
+  {
+  System.out.println("runs safely");
+ }
+}
+class Mainmethod
+{
+ psvm(String args[])
+ bike obj=new Bike();
+ obj.run();
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
